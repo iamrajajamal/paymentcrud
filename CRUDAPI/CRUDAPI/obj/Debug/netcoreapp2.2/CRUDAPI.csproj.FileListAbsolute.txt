@@ -1,0 +1,11 @@
+C:\Users\Jamal\Documents\Visual Studio 2019\Projects\CoreAndAngularCRUD\CRUDAPI\CRUDAPI\bin\Debug\netcoreapp2.2\CRUDAPI.deps.json
+C:\Users\Jamal\Documents\Visual Studio 2019\Projects\CoreAndAngularCRUD\CRUDAPI\CRUDAPI\bin\Debug\netcoreapp2.2\CRUDAPI.runtimeconfig.json
+C:\Users\Jamal\Documents\Visual Studio 2019\Projects\CoreAndAngularCRUD\CRUDAPI\CRUDAPI\bin\Debug\netcoreapp2.2\CRUDAPI.runtimeconfig.dev.json
+C:\Users\Jamal\Documents\Visual Studio 2019\Projects\CoreAndAngularCRUD\CRUDAPI\CRUDAPI\bin\Debug\netcoreapp2.2\CRUDAPI.dll
+C:\Users\Jamal\Documents\Visual Studio 2019\Projects\CoreAndAngularCRUD\CRUDAPI\CRUDAPI\obj\Debug\netcoreapp2.2\CRUDAPI.csprojAssemblyReference.cache
+C:\Users\Jamal\Documents\Visual Studio 2019\Projects\CoreAndAngularCRUD\CRUDAPI\CRUDAPI\obj\Debug\netcoreapp2.2\CRUDAPI.csproj.CoreCompileInputs.cache
+C:\Users\Jamal\Documents\Visual Studio 2019\Projects\CoreAndAngularCRUD\CRUDAPI\CRUDAPI\obj\Debug\netcoreapp2.2\CRUDAPI.RazorAssemblyInfo.cache
+C:\Users\Jamal\Documents\Visual Studio 2019\Projects\CoreAndAngularCRUD\CRUDAPI\CRUDAPI\obj\Debug\netcoreapp2.2\CRUDAPI.RazorAssemblyInfo.cs
+C:\Users\Jamal\Documents\Visual Studio 2019\Projects\CoreAndAngularCRUD\CRUDAPI\CRUDAPI\obj\Debug\netcoreapp2.2\CRUDAPI.AssemblyInfoInputs.cache
+C:\Users\Jamal\Documents\Visual Studio 2019\Projects\CoreAndAngularCRUD\CRUDAPI\CRUDAPI\obj\Debug\netcoreapp2.2\CRUDAPI.AssemblyInfo.cs
+C:\Users\Jamal\Documents\Visual Studio 2019\Projects\CoreAndAngularCRUD\CRUDAPI\CRUDAPI\obj\Debug\netcoreapp2.2\CRUDAPI.RazorTargetAssemblyInfo.cache
