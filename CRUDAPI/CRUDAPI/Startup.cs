@@ -26,10 +26,12 @@ namespace CRUDAPI
                 {
                     var resolver = options.SerializerSettings.ContractResolver;
                     if (resolver == null) return;
-                    (resolver as DefaultContractResolver).NamingStrategy = null;
+                    ((DefaultContractResolver)resolver).NamingStrategy = null;
                 });
             services.AddDbContext<PaymentDetailContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DevConnection")));
+
+            services.AddCors();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -39,13 +41,10 @@ namespace CRUDAPI
             {
                 app.UseDeveloperExceptionPage();
             }
-            else
-            {
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-                app.UseHsts();
-            }
 
-            app.UseHttpsRedirection();
+            app.UseCors(options =>
+                options.WithOrigins("http://localhost:4200").AllowAnyMethod()
+                    .AllowAnyHeader());
             app.UseMvc();
         }
     }
