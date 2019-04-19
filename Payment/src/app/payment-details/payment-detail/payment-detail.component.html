@@ -1,5 +1,5 @@
 <form #form="ngForm" autocomplete="off" (submit)="onSubmit(form)">
-  <input type="hidden" name="PMId" [value]="service.formData.PMId">
+  <input type="hidden" name="PMId" [value]="service.PMId">
   <div class="form-group">
     <div class="input-group">
       <div class="input-group-prepend">
@@ -14,7 +14,7 @@
       <input
         name="CardOwnerName"
         #CardOwnerName="ngModel"
-        [(ngModel)]="service.formData.CardOwnerName"
+        [(ngModel)]="service.CardOwnerName"
         class="form-control"
         placeholder="Card Owner Name"
         required
@@ -35,7 +35,7 @@
       <input
         name="CardNumber"
         #CardNumber="ngModel"
-        [(ngModel)]="service.formData.CardNumber"
+        [(ngModel)]="service.CardNumber"
         class="form-control"
         placeholder="16 Digits Card Number"
         required
@@ -61,7 +61,7 @@
         <input
           name="ExpirationDate"
           #ExpirationDate="ngModel"
-          [(ngModel)]="service.formData.ExpirationDate"
+          [(ngModel)]="service.ExpirationDate"
           class="form-control"
           placeholder="MM/YY"
           required
@@ -85,7 +85,7 @@
           type="password"
           name="CVV"
           #CVV="ngModel"
-          [(ngModel)]="service.formData.CVV"
+          [(ngModel)]="service.CVV"
           class="form-control"
           placeholder="CVV"
           required
